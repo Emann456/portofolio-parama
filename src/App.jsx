@@ -15,17 +15,6 @@ import {
   Terminal
 } from 'lucide-react';
 
-import fotoSaya from './assets/ayu.jpg';
-import project01 from './assets/prj01.png';
-import project02 from './assets/prj02.png';
-import project03 from './assets/prj03.png';
-import project04 from './assets/prj04.png';
-import project05 from './assets/prj05.png';
-import project06 from './assets/prj06.png';
-import project07 from './assets/prj07.png';
-import project08 from './assets/prj08.png';
-import project09 from './assets/prj09.png';
-
 // --- DATA ---
 const PORTFOLIO_DATA = {
   name: "Rr. Parama Ayu Janitra",
@@ -34,7 +23,7 @@ const PORTFOLIO_DATA = {
   email: "paramajanitra04@gmail.com",
   linkedin: "https://www.linkedin.com/in/paramaayu",
   phone: "081384274661",
-  profileImage: fotoSaya,
+  profileImage: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800", // KEMBALIKAN KE fotoSaya DI VS CODE ANDA
   about: "Saya Parama Ayu, seorang freshgraduate di Universitas Bina Sarana Informatika dengan antusiasme tinggi di bidang Data Analyst. Saya bersemangat menerjemahkan data menjadi solusi melalui analisis yang akurat, kreativitas dalam memecahkan masalah, dan penyajian wawasan yang mudah dipahami.",
   skills: [
     {
@@ -48,9 +37,9 @@ const PORTFOLIO_DATA = {
       description: "Mampu merancang dan mengimplementasikan alur kerja ETL (Extract, Transform, Load) menggunakan Pentaho Data Integration untuk membersihkan, memproses, dan mengintegrasikan data dari berbagai sumber."
     },
     {
-      title: "Microsoft Office & Google Workspace",
+      title: "Microsoft Excel & Spreadsheet",
       icon: <BarChart3 className="w-8 h-8 text-green-500" />,
-      description: "Mahir menggunakan fungsi tingkat lanjut Excel (VLOOKUP, Pivot Table, Power Query, Macro/VBA) untuk membersihkan, menganalisis, dan memodelkan data secara efisien."
+      description: "Terampil menggunakan Microsoft Excel dan Google Sheets untuk analisis data tingkat lanjut, pengolahan fungsi kompleks, pivot table, hingga pembuatan laporan data."
     },
     {
       title: "Data Visualization (Tableau, Power BI, Grafana)",
@@ -67,7 +56,7 @@ const PORTFOLIO_DATA = {
       tools: ["DBeaver", "Pentaho", "Tableau"],
       description: "Dashboard interaktif tingkat tinggi untuk pengambil keputusan yang menyajikan wawasan pendapatan, kategori produk, supplier, serta melacak performa pengiriman harian.",
       link: "https://public.tableau.com/app/profile/rr.parama.ayu.janitra/viz/dwh_northwind_17318958716480/NorthwindShipping",
-      image: project01
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
     },
     { 
       id: 2,
@@ -77,7 +66,7 @@ const PORTFOLIO_DATA = {
       tools: ["DBeaver", "Tableau"],
       description: "Solusi analisis dengan dua halaman dasbor interaktif untuk memonitor data komplain pelanggan secara menyeluruh, membantu identifikasi tren dan akar masalah dengan cepat.",
       link: "https://public.tableau.com/app/profile/rr.parama.ayu.janitra/viz/complaint_customer_17320885195560/Dashboard1",
-      image: project02
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: 3,
@@ -86,7 +75,7 @@ const PORTFOLIO_DATA = {
       date: "Nov 2024",
       tools: ["DBeaver", "Power BI"],
       description: "Dasbor komprehensif untuk memberikan wawasan kondisi SDM perusahaan, mendukung pengambilan keputusan strategis hingga operasional, dan mengelola siklus hidup karyawan.",
-      image: project03
+      image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: 4,
@@ -96,7 +85,7 @@ const PORTFOLIO_DATA = {
       tools: ["DBeaver", "Pentaho", "Tableau"],
       description: "Asisten diet personal memanfaatkan dataset USDA. Memberdayakan pengguna untuk menjelajahi, membandingkan kandungan gizi makanan, dan membuat pilihan sesuai kebutuhan kalori.",
       link: "https://public.tableau.com/app/profile/alief.luqiakbar/viz/FinalProject_DABI_Kelompok4/Overview",
-      image: project04
+      image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: 5,
@@ -105,7 +94,7 @@ const PORTFOLIO_DATA = {
       date: "Des 2024",
       tools: ["DBeaver", "Pentaho"],
       description: "Demonstrasi proses end-to-end pengolahan data mentah (transaksional) menjadi Data Mart terstruktur menggunakan Pentaho untuk kebutuhan pelaporan Business Intelligence.",
-      image: project05
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: 6,
@@ -114,7 +103,7 @@ const PORTFOLIO_DATA = {
       date: "Okt 2025",
       tools: ["DBeaver", "SQL", "Grafana"],
       description: "Analisis penggunaan voucher yang mengungkap puncak aktivitas pada jam siang-sore dengan dominasi pengguna Apple, memberikan insight bagi tim marketing untuk optimasi kampanye.",
-      image: project06
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: 7,
@@ -123,7 +112,7 @@ const PORTFOLIO_DATA = {
       date: "Okt 2025",
       tools: ["DBeaver", "SQL", "Grafana"],
       description: "Analisis pola penonton yang menemukan bahwa usia 26-35 tahun mendominasi genre Drama & Romance, membantu penyusunan strategi promosi yang tepat sasaran berdasarkan umur.",
-      image: project07
+      image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: 8,
@@ -132,16 +121,17 @@ const PORTFOLIO_DATA = {
       date: "Okt 2025",
       tools: ["DBeaver", "SQL", "Grafana"],
       description: "Menganalisis pola penjualan tiket bioskop. Menemukan Senin sebagai hari tertinggi (Film Perang/Keluarga) dan Kamis terendah, menghasilkan rekomendasi diskon khusus untuk optimalisasi.",
-      image: project08
+      image: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: 9,
-      title: "Cafe Sales Dashboard",
-      context: "Data Analyst Project",
-      date: "Aug 2026",
+      title: "Cafe Sales Performance Dashboard",
+      context: "Data Analysis Project",
+      date: "2023",
       tools: ["Microsoft Excel"],
       description: "Dashboard interaktif komprehensif menggunakan Excel untuk memantau performa penjualan kafe. Menyajikan KPI utama (Total Revenue, Order, AOV), tren pendapatan bulanan, produk terlaris, serta demografi metode pembayaran dan preferensi pesanan (In-store/Takeaway).",
-      image: project09
+      link: "#",
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800" // Ganti dengan variabel gambar lokal Anda nanti, misalnya: project09
     }
   ]
 };
@@ -338,11 +328,11 @@ const Skills = () => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-24 bg-slate-900/30 border-y border-slate-800 relative">
-      {/* Glow */}
+    <section id="projects" className="py-24 bg-slate-900/30 border-y border-slate-800 relative overflow-hidden">
+      {/* Glow - Ini biang kerok penyebab bug horizontal di HP, sudah ditangani dengan overflow-hidden pada baris di atas */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-blue-600/5 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Project Highlights</h2>
@@ -445,6 +435,7 @@ const Footer = () => {
 };
 
 export default function App() {
+  // Tambahan class overflow-x-hidden pada tag div di bawah ini menyelesaikan masalah scroll ke samping di HP
   return (
     <div className="min-h-screen bg-slate-950 text-slate-50 font-sans selection:bg-blue-500/30 overflow-x-hidden">
       <Navbar />
