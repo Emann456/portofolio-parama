@@ -15,7 +15,7 @@ import {
   Terminal
 } from 'lucide-react';
 
-import fotoSaya from './assets/paramaayu.jpg';
+import fotoSaya from './assets/paramayu.jpg';
 import project01 from './assets/prj01.png';
 import project02 from './assets/prj02.png';
 import project03 from './assets/prj03.png';
